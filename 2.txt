@@ -1,0 +1,25 @@
+// Example program
+
+#include <iostream>
+#include <cmath>
+#define PI 3.142
+
+using namespace std;
+
+
+int main()
+{
+    int ans 
+	double j = 1.5, circle,a,b,c,d,e,f;
+
+	circle = PI * pow(j, 2);
+	a = abs (9.5);
+	b = floor (9.5);
+	c = floor ( -9.5);
+	d = ceil (8.5);
+	e = ceil (-8.5);
+	f = sqrt (pow(6,4));
+	
+	cout << "\n\nThe area of this circle is " << circle << "\n\n";
+	cout << " " << a << " " << b << " " << c << " " << d << " " << e << " " << f << endl ;
+}
